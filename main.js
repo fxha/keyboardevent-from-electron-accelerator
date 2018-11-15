@@ -213,6 +213,10 @@ export function reduceCode({accelerator, event}, {code, key}) {
 	};
 }
 
+export function updateVirtualKeys(vkeys) {
+	Object.assign(virtualKeyCodes, vkeys)
+}
+
 /**
  * This function transform an Electron Accelerator string into
  * a DOM KeyboardEvent object.

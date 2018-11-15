@@ -1,15 +1,17 @@
 # keyboardevent-from-electron-accelerator
 
-[![Travis Build Status](https://img.shields.io/travis/parro-it/keyboardevent-from-electron-accelerator/master.svg)](http://travis-ci.org/parro-it/keyboardevent-from-electron-accelerator)
-[![NPM downloads](https://img.shields.io/npm/dt/keyboardevent-from-electron-accelerator.svg)](https://npmjs.org/package/keyboardevent-from-electron-accelerator)
-[![AppVeyor Build status](https://ci.appveyor.com/api/projects/status/l1qdd90e7xagkgq7/branch/master?svg=true)](https://ci.appveyor.com/project/parro-it/keyboardevent-from-electron-accelerator/branch/master)
-
 > Transform an Electron Accelerator string into a DOM KeyboardEvent.
 
 This module export a function that take an Electron Accelerator as input
 and return a corresponding KeyboardEvent object.
 
 E.g. `'Ctrl+Alt+C' => {code: 'c', ctrlKey: true, altKey: true}`
+
+---
+
+Patched version of `keyboardevent-from-electron-accelerator` to update virtual key codes at runtime.
+
+---
 
 ## Usage
 
